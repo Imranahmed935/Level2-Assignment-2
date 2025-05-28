@@ -44,3 +44,12 @@ INSERT INTO sightings(species_id, ranger_id, location, sighting_time, notes) VAL
 (1, 2, 'Snowfall Pass', '2024-05-18 18:30:00', NULL)
 
 select * FROM sightings;
+
+
+
+--Problem-01
+
+INSERT INTO rangers(ranger_name, region) VALUES
+('Derek Fox','Coastal Plains');
+
+
