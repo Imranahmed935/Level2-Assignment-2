@@ -72,3 +72,8 @@ GROUP BY r.ranger_name
 ORDER BY r.ranger_name;
 
 
+--Problem-05
+
+SELECT species.common_name FROM species
+LEFT JOIN sightings ON species.species_id = sightings.species_id
+WHERE sightings.species_id IS NULL
